@@ -1,0 +1,48 @@
+*{
+    background-color: #1e1e1e;color: #ffffff;
+    font-family: 'Bowlby One SC', sans-serif;
+}
+.nav2{display: flex;justify-content: space-between;align-items: center; padding:5px;
+    
+}
+.nav2 ul li{display: inline-block;justify-content: space-between;
+    padding: 0px 20px;font-size: 30px;
+    
+}
+.nav2 h1{
+    font-size: 37px;line-height: 44px;
+}
+.nav1 ul{margin:5px;
+   
+}
+a{
+    text-decoration: none;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 107px;padding: 5px;letter-spacing: -0.0em;line-height: 89%;color:rgb(233,227,220) ;margin: 50px;
+}
+.burger img{height: 350px;
+
+}
+.burger{
+    display:block;margin-left: 18%;
+}
+.block{
+    display: flex;justify-content:space-between;background-color:#d1ef53;margin:50px;padding: 15px;border-radius: 30px;
+}
+.info{background-color:#d1ef53;
+   width: 250px;margin-left: 250px;font-size: 70px;line-height: 89%;margin-top: 20px;color: #1e1e1e;margin-bottom: 20px;
+}
+.info2{background-color:#d1ef53;font-family: 'Anton', sans-serif;
+    font-size: 20px;margin-top: 20px;color: #1e1e1e;margin-right: 250px;width: 350px;
+ }
+.info2 button{margin-left: 30%;background-color: #e9e3dc;border: none;color: #1e1e1e;padding: 10px 20px;margin-top:5px;font-size: 16px;transition: all ease 0.3s;} 
+.info2 button:hover{background-color: #1e1e1e;color: #e9e3dc;
+    transform: scale(1.2);
+}
+
+
+
