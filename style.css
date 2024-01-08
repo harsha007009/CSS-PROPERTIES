@@ -43,6 +43,7 @@ a{
 .info2 button:hover{background-color: #1e1e1e;color: #e9e3dc;
     transform: scale(1.2);
 }
+
 .nav__item:hover{ color:aqua;}
 .nav__item::after{
     content: '';height: 1px;display:block ;width: 100%;background-color:aqua;opacity: 0;
