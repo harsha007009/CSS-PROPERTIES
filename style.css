@@ -59,13 +59,9 @@ a{
     cursor: pointer;
 }
 
-.play-button-overlay::before {
-    content: '\25BA'; /* Unicode character for play icon (right-pointing triangle) */
-    font-size: 40px;
-    color: #333;
-}
+
 .button{
-    align-items: center;
+    align-items: center;width: fit-content;padding: 10px;border-radius: 5px;
     background-color: white
    
   }
@@ -74,11 +70,7 @@ a{
     color: #1e1e1e;
     font-size: 20px;}
     
-  
-  .button :hover{
-    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
-  }
-  h2{color: white;}
+   h2{color: white;}
    
    
 
