@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8"><link rel="stylesheet" href="style.css">
@@ -8,19 +9,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One+SC&family=Hedvig+Letters+Sans&family=Nova+Square&family=Roboto:wght@900&display=swap" rel="stylesheet">
 <title>only code</title>
+<style>
+  body {
+      margin: 0;
+      overflow: hidden;
+  }
+
+  #background-iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+
+  #content {
+      /* Add styling for the content on top of the iframe */
+      position: relative;
+      
+      padding: 20px;
+  }
+</style>
 </head>
 <body>
-  <header class="nav1">
-   <nav class="nav2"><h1>crunchy & delicious</h1>
-     <ul>
-       <li><a href="#">HOME</a></li>
-       <li><a href="cse.html">ABOUT</a></li>
-     </ul>
-   </nav>
-  </header>
-  <div class="main">
-   <h1>WELCOME TO THE WEBSITE</h1>
-   <iframe width="1380" height="483" src="https://www.youtube.com/embed/u2D2PxkYby4" title="CSS PROPERTIES EXPLANATION" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   
+  <body>
+
+    <!-- Background iframe -->
+    <iframe id="background-iframe" src="https://my.spline.design/forestlightscopy-d884367311f1b73b888e9483575e6155/" frameborder="0"></iframe>
+
+    <!-- Content on top of the iframe -->
+    <div id="content">
+      <header class="nav1">
+        <nav class="nav2"><h1>CSS PROPERTES</h1>
+          <ul>
+            <li ><a href="#" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+       </header>
+       <div class="main">
+       <h2> HERE IS THE YOUTUBE-LINK </h2>
+       <button class="button" role="button"><a href="https://youtu.be/u2D2PxkYby4" >CLICK HERE</a></button>
+       </div>
+
+
+    </div>    
+        
+  
+
 </body>
 </html>
+
